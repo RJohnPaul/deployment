@@ -7,10 +7,12 @@ import Testimonial from "@/components/ui/Testimonial";
 import VisualFeatures from "@/components/ui/VisualFeatures";
 import Companies from "@/components/ui/Companies";
 import Stats from "@/components/ui/Stats";
+import Banner from "@/components/ui/Banner";
 
 export default function Home() {
   return (
     <>
+      <Banner />
       <Hero />
       <VisualFeatures />
       <Features />

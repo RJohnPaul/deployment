@@ -9,7 +9,7 @@ export default function Login() {
   return (
     <>
       <Head>
-        <title>Login - Mailgo</title>
+        <title>Login - Tendertulip</title>
       </Head>
       <main className='w-full h-screen flex flex-col items-center justify-center px-4'>
         <div className='max-w-sm w-full text-gray-300'>
@@ -48,6 +48,7 @@ export default function Login() {
             </div>
             <Button className='w-full text-gray-800 bg-gray-100 hover:bg-gray-200 ring-offset-2 focus:ring rounded-lg'>
               Sign in
+              
             </Button>
             <button
               type='button'

@@ -1,8 +1,8 @@
-import LayoutEffect from "@/components/LayoutEffect"
+import LayoutEffect from "@/components/LayoutEffect";
 import { motion } from "framer-motion";
 
 
-export default () => {
+const Company = () => {
     return (
         <LayoutEffect className="duration-1000 delay-500" isInviewState={{ trueState: "opacity-1", falseState: "opacity-0" }}> 
             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1, transition: { duration: 1 } }} className="py-28 bg-gray-900">
@@ -65,4 +65,7 @@ export default () => {
             </motion.div>
         </LayoutEffect>
     )
-}
+};
+
+Company.displayName = 'Company';
+export default Company;
